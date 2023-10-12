@@ -32,6 +32,7 @@ const A467 = () => {
           alt=""
           src="/realassistai-logo-full-colour-rgb-1.svg"
         />
+        
         <div className="absolute top-[1.5rem] left-[calc(50%_-_285px)] [background:linear-gradient(90.22deg,_#005dff,_#00a3ff_44.27%,_#21ddff)] w-[35.19rem] h-[0.13rem]" />
         <div className="absolute top-[0rem] left-[24.44rem] leading-[1rem] font-black">
           123 Main Street, Dover, NH 03820-4667
@@ -175,9 +176,12 @@ const A467 = () => {
         <div className="absolute top-[0rem] left-[0rem] leading-[0.56rem] font-medium">
           <p className="m-0">Tax Account Number</p>
         </div>
+        
+        
         <div className="absolute top-[0rem] left-[32.75rem] text-[0.69rem] leading-[0.56rem] font-medium text-main-void-600 text-right">
           -
         </div>
+        
       </div>
       {/* <div className="absolute top-[15.13rem] left-[11.13rem] w-[15.94rem] h-[3.75rem] text-[0.63rem] text-main-void-400">
         <img
@@ -270,9 +274,11 @@ const A467 = () => {
               src="/mask-group.svg"
             />
             <div className="absolute top-[0.44rem] left-[2.72rem] w-[9.06rem] h-[0.63rem]">
-              <div className="absolute top-[0rem] left-[0rem] leading-[1rem] font-black inline-block w-[9.06rem] h-[0.63rem]">
-                Only Focus on Crime Graph
+              <div onClick={downloadPDF}>
+              <div className="absolute top-[0rem] left-[0rem] leading-[1rem] font-black inline-block w-[9.06rem] h-[0.63rem] cursor-pointer">
+              click to download the report pdf
               <div>
+              </div>
               
             </div>
               </div>
@@ -349,7 +355,7 @@ const A467 = () => {
               src="/mask-group1.svg"
             />
             <div onClick={downloadPDF} className="absolute top-[0.39rem] left-[2.72rem] w-[9.06rem] h-[0.57rem]">
-              <div className="absolute top-[0rem] left-[0rem] leading-[1rem] font-black inline-block w-[9.06rem] h-[0.57rem]">
+              <div className="absolute top-[0rem] left-[0rem] leading-[1rem] font-black inline-block w-[9.06rem] h-[0.57rem] cursor-pointer">
                click to download the report pdf
               </div>
             </div>
@@ -425,7 +431,7 @@ const A467 = () => {
               src="/mask-group2.svg"
             />
             <div onClick={downloadPDF} className="absolute top-[0.42rem] left-[2.72rem] w-[9.06rem] h-[0.6rem]">
-              <div className="absolute top-[0rem] left-[0rem] leading-[1rem] font-black inline-block w-[9.06rem] h-[0.6rem]">
+              <div className="absolute top-[0rem] left-[0rem] leading-[1rem] font-black inline-block w-[9.06rem] h-[0.6rem] cursor-pointer">
                 click to download the report pdf
               </div>
             </div>
