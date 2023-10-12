@@ -24,7 +24,7 @@ const A467 = () => {
     })
   }
   return (
-    <div className="relative bg-white w-full h-[52.63rem] overflow-hidden text-left text-[0.56rem] text-main-void-600 font-poppins" ref={pdfRef}>
+    <div className="relative bg-white w-[60rem] h-[52.63rem] overflow-hidden text-left text-[0.56rem] text-main-void-600 font-poppins" ref={pdfRef}>
       <div className="absolute top-[50rem] left-[calc(50%_-_281.5px)] [background:linear-gradient(90.22deg,_#005dff,_#00a3ff_44.27%,_#21ddff)] w-[35.19rem] h-[0.13rem]" />
       <div className="absolute top-[1rem] left-[calc(50%_-_281.5px)] w-[35.63rem] h-[1.63rem]">
         <img
